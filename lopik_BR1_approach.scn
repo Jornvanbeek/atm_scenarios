@@ -1,0 +1,29 @@
+00:00:00.00>%0 dest eham
+00:00:00.00>%0 addwpt WPT_BR1
+00:00:00.00>%0 addwpt WPT_BR12
+00:00:00.00>%0 addwpt lopik fl120 250
+00:00:00.00>%0 addwpt lopik fl120 250
+00:00:00.00>%0 addwpt lomko
+00:00:00.00>%0 addwpt alphen
+00:00:00.00>%0 addwpt ch
+00:00:00.00>%0 addwpt kag62 fl020 170
+00:00:00.00>%0 addwpt kag22
+
+
+00:00:00.00>%0 at ch spd 200
+00:00:00.00>%0 at lomko spd 230
+00:00:00.00>%0 at alphen spd 200
+00:00:00.00>%0 at kag22 spd 150
+
+00:00:00.00>%0 at lopik do colour %0 100,230,100
+00:00:00.00>%0 at lopik do swtod %0 off
+00:00:00.00>%0 at lomko do colour %0 100,230,100
+00:00:00.00>%0 at kag62 do colour %0 100,100,100
+00:00:00.00>%0 atalt fl099 zoner 1.5 %0
+00:00:00.00>%0 atalt fl100 zoner 2.5 %0
+
+
+00:00:00.00>%0 vnav on
+00:00:00.00>%0 lnav on
+00:00:00.00>%0 colour 0,255,0
+00:00:02.00>%0 colour 0,255,0
