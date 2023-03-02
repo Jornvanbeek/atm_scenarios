@@ -1,0 +1,17 @@
+00:00:00.00> del a
+00:00:00.00> cre a b738 52.119467, 3.673689 070 fl140 250
+00:00:00.00> a pcall norsea
+
+
+00:00:00.00> del b
+00:00:00.00> cre b b738 51.87, 5.23 310 fl160 270
+00:00:00.00> b pcall lopik
+
+00:00:00.00> del c
+00:00:00.00> cre c b744 52.68, 5.311 190 fl160 270
+00:00:00.00> c pcall ysel
+
+00:00:01.00> a pcall norseahold
+00:00:01.00> b pcall lopikhold
+00:00:01.00> c pcall yselhold
+00:00:01.00> rtf 4
