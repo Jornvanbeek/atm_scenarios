@@ -1,0 +1,6 @@
+# 00:00:00.00>pcall proceduredraw
+00:00:00.00> del a
+00:00:00.00> cre a b738 52.119467, 3.673689 070 fl140 250
+00:00:00.00> a pcall norsea
+00:00:01.00> a pcall norseahold
+00:00:01.00> rtf 4

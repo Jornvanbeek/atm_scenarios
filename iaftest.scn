@@ -1,0 +1,12 @@
+00:00:00.00> del yseltest
+00:00:00.00> del lopiktest
+00:00:00.00> del norseatest
+
+00:00:00.00> cre yseltest b738 52.578,5.4527 230 fl140 280
+00:00:00.00> yseltest pcall ysel
+
+00:00:00.00> cre lopiktest a332 51.9176,5.1911 300 fl140 280
+00:00:00.00> lopiktest pcall lopik
+
+00:00:00.00> cre norseatest b744 52.150,3.86 050 fl140 280
+00:00:00.00> norseatest pcall norsea
