@@ -1,9 +1,9 @@
-00:00:00.00>%0 at lopik do hdg %0,030
-00:00:00.00>%0 at norsea do alt %0,fl110
-00:00:00.00>%0 at norsea do spd %0,210
-00:00:00.00>%0 at norsea do color %0 255,255,255
+00:00:00.00>%0 at brab do hdg %0,030
+00:00:00.00>%0 at brab do alt %0,fl110
+00:00:00.00>%0 at brab do spd %0,210
+00:00:00.00>%0 at brab do color %0 255,255,255
 
-00:00:00.00>%0 at norsea do delay 00:00:30.00 hdg %0,110
+00:00:00.00>%0 at brab do delay 00:00:30.00 hdg %0,110
 
-00:00:00.00>%0 at norsea do delay 00:03:00.00 direct %0, lopik 
+00:00:00.00>%0 at brab do delay 00:03:00.00 direct %0, brab 
 
