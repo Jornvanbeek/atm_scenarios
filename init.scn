@@ -5,7 +5,7 @@
 00:00:00.00>zoner 2.5
 00:00:00.00>zonedh 500
 #00:00:00.00>pcall eham/deffix
-#00:00:00.00>pcall approaches_TR.scn
+
 
 # IAF
 00:00:00.00>defwpt yselmr 52.547532,5.260317 fix
@@ -79,4 +79,7 @@
 00:00:00.00>COLOUR LINE_BR2 yellow
 00:00:00.00>COLOUR LINE_BR1 yellow
 00:00:00.00>COLOUR LINE_BR12 yellow
+
+# approaches from top right of schiphol
+00:00:00.00>pcall approaches_TR.scn
 
