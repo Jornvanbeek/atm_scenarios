@@ -1,0 +1,5 @@
+
+00:00:00.00>%0 addwpt nor2 fl220
+00:00:00.00>%0 addwpt deltaw
+00:00:00.00>%0 addwpt tnkr
+00:00:00.00>%0 pcall norsea

@@ -1,6 +1,6 @@
 #setting initial variables: white base color, asas on, zone to 5 nm and 1000 ft
 00:00:00.00>clrcrecmd
-00:00:00.00>crecmd colour 255,255,255
+00:00:00.00>crecmd colour 255,100,100
 00:00:00.00>asas on
 00:00:00.00>zoner 2.5
 00:00:00.00>zonedh 500
@@ -46,18 +46,26 @@
 00:00:00.00>defwpt deltaw 51.783097,3.664156
 00:00:00.00>defwpt tnkr 51.995695,3.667412
 00:00:00.00>defwpt wndml 52.309548,3.425945
+00:00:00.00>defwpt nor1 51.505735,3.659815
+00:00:00.00>defwpt nor2 51.58713,3.246925
+00:00:00.00>defwpt nor3 51.915571,2.672966
+00:00:00.00>defwpt nor4 52.395078,3.161093
+00:00:00.00>defwpt nor5 52.447196,3.418542
 
+00:00:00.00>line norl2 51.587023,3.246695 51.782997,3.664193
+00:00:00.00>line norl1 51.505465,3.660071 51.995685,3.667374
+00:00:00.00>line tnk 51.996011,3.666916 52.15629,3.891401
 
-00:00:00.00>polyline zeeland 52.156467,3.891605 51.995949,3.667286 51.236958,3.656914
 00:00:00.00>polyline zeee 52.156995,3.891519 51.914366,2.66831
 00:00:00.00>polyline noordzee 52.156412,3.8917 52.395351,3.160983
 00:00:00.00>polyline noord 52.308634,3.425457 52.447267,3.419815
-00:00:00.00>polyline kust 51.352184,2.747795 51.782872,3.663967
-00:00:00.00>COLOUR zeeland yellow
+
+00:00:00.00>COLOUR norl2 yellow
 00:00:00.00>COLOUR zeee yellow
 00:00:00.00>COLOUR noordzee yellow
 00:00:00.00>COLOUR noord yellow
-00:00:00.00>COLOUR kust yellow
+00:00:00.00>COLOUR tnk yellow
+00:00:00.00>COLOUR norl1 yellow
 
 
 
@@ -83,3 +91,6 @@
 # approaches from top right of schiphol
 00:00:00.00>pcall approaches_TR.scn
 
+# regional airport waypoints
+00:00:00.00>defwpt teugeapp 52.234387,5.849245
+00:00:00.00>defwpt lwe 53.151932,5.574972
