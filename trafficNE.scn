@@ -2,6 +2,7 @@
 # DEFFIX.scn needs to be called once first 
 
 00:00:00.00>pcall init
+00:00:00.00>hold
 # wpt ETPOS is not per se included in BlueSky
 00:00:00.00> DEFWPT ETPOS N52'35'06.44" E003'24'51.04"
 
