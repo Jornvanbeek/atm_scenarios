@@ -94,3 +94,16 @@
 # regional airport waypoints
 00:00:00.00>defwpt teugeapp 52.234387,5.849245
 00:00:00.00>defwpt lwe 53.151932,5.574972
+
+
+
+#departures
+
+#volkldeparture
+#draw lines
+00:00:00.00>polyline volkl36l 52.329011,4.708918 52.36226,4.711773 52.426575,4.717839 52.485687,4.801853 52.408918,5.064733 51.903026,5.379761
+00:00:00.00>colour volkl36l orange
+
+#define wpt
+00:00:00.00>defwpt volkl 51.903126,5.379931
+00:00:00.00>defwpt spies 52.408925,5.065001
