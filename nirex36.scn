@@ -1,8 +1,9 @@
-00:00:00.00>%0 pcall stddep
+
+00:00:00.00>%0 pcall stddep36
 
 00:00:00.00>%0 addwpt eh622
-00:00:00.00>%0 addwpt dm622
 00:00:00.00>%0 addwpt ulpat
 00:00:00.00>%0 addwpt eh186
-00:00:00.00>%0 addwpt nirex
+00:00:00.70>%0 addwpt nirex fl300
 
+00:00:00.70>%0 at nirex do %0 pcall fl350
