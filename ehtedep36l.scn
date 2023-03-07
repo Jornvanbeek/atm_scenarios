@@ -1,7 +1,8 @@
 00:00:00.00>%0 pcall stddep
 
 00:00:00.00>%0 addwpt EH622
+00:00:00.00>%0 addwpt DM622
 00:00:00.00>%0 addwpt EH031
 00:00:00.00>%0 addwpt MKM
-00:00:00.00>%0 addwpt FlEVO
+00:00:00.00>%0 addwpt FLEVO
 00:00:00.00>%0 addwpt EHTE
