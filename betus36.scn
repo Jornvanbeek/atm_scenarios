@@ -5,8 +5,8 @@
 
 00:00:00.00>%0 addwpt EH622
 00:00:00.00>%0 addwpt EH031
-00:00:00.00>%0 addwpt betus fl300
-00:00:00.00>%0 addwpt gulto
-00:00:00.00>%0 at betus do %0 pcall fl350
+00:00:00.70>%0 addwpt betus fl300
+00:00:00.70>%0 addwpt gulto
+00:00:00.70>%0 at betus do %0 pcall fl350
 
 

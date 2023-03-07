@@ -5,11 +5,8 @@
 00:00:00.00>%0 addwpt eh622
 
 00:00:00.00>%0 addwpt ulpat
-00:00:00.00>%0 addwpt sugol fl300
+00:00:00.70>%0 addwpt sugol fl300
 
-00:00:00.00>%0 at sugol do %0 pcall fl350
-<<<<<<< HEAD
+00:00:00.70>%0 at sugol do %0 pcall fl350
 
-=======
->>>>>>> 71ccb6947e6623f6a16df34d99282c68737b3557
 
