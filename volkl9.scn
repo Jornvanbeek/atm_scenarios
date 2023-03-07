@@ -4,7 +4,7 @@
 00:00:00.00>%0 pcall stddep9
 
 00:00:00.00>%0 addwpt eh055
-00:00:00.00>%0 addwpt abc
+00:00:00.00>%0 addwpt abco
 00:00:00.00>%0 addwpt utre
 00:00:00.70>%0 addwpt volkl fl300
 00:00:00.70>%0 at volkl do %0 pcall fl350
