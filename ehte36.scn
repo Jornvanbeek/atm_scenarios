@@ -1,5 +1,4 @@
-00:00:00.00>%0 addwpt polderbaan
-00:00:00.00>%0 addwpt polderbaantwo
+
 00:00:00.00>%0 pcall stddep36
 
 00:00:00.00>%0 addwpt EH622
