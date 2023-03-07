@@ -1,7 +1,10 @@
+00:00:00.00>%0 addwpt polderbaan
+00:00:00.00>%0 addwpt polderbaantwo
+00:00:00.00>%0 pcall stddep
 
-00:00:00.00>%0 addwpt eh622 fl050
+00:00:00.00>%0 addwpt eh622
 
 00:00:00.00>%0 addwpt ulpat
-00:00:00.00>%0 addwpt sugol fl300 300
-00:00:00.00>%0 pcall stddep
+00:00:00.00>%0 addwpt sugol fl300
+
 
