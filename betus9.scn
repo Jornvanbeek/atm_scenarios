@@ -1,9 +1,9 @@
 00:00:00.00>%0 pcall stddep9
 
 00:00:00.00>%0 addwpt eh055
-00:00:00.00>%0 addwpt r1814
+
 00:00:00.00>%0 addwpt bad
 00:00:00.00>%0 addwpt red
-00:00:00.00>%0 addwpt betus fl300
-00:00:00.00>%0 at betus do %0 pcall fl350
+00:00:00.70>%0 addwpt betus fl300
+00:00:00.70>%0 at betus do %0 pcall fl350
 
