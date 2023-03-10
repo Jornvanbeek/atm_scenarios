@@ -1,6 +1,6 @@
 #setting initial variables: white base color, asas on, zone to 5 nm and 1000 ft
 00:00:00.00>clrcrecmd
-00:00:00.00>crecmd colour 255,100,100
+00:00:00.00>crecmd colour 255,0,0
 00:00:00.00>asas on
 00:00:00.00>zoner 2.5
 00:00:00.00>zonedh 500
@@ -15,8 +15,9 @@
 00:00:00.00>defwpt coastspd 52.226401,4.425091 fix
 00:00:00.00>defwpt channel 51.679852,2.15101 fix
 00:00:00.00>defwpt ktwk 52.214888,4.165413 fix
-00:00:00.00>defwpt alphen 52.154261,4.574523 fix
+00:00:00.00>defwpt alphen 52.145035,4.576668 fix
 00:00:00.00>defwpt brab 51.937574, 5.104043 fix
+00:00:00.00>defwpt groenhart 52.03375,4.730115
 
 # drawing
 #00:00:00.00>circle sixty 52.287909,4.734039 32

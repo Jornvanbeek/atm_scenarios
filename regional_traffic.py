@@ -17,7 +17,7 @@ with open('trafficNE.scn') as f:
                 print(line.split()[2])
                 if line.split()[2] in defined_airports:
                     added_line = line.split()[0] + ' PCALL ' + line.split()[2] + '\n'
-                    with open('regional_traffic_automated_v1.scn', 'a') as fd:
+                    with open('regional_traffic_automated_v2.scn', 'a') as fd:
                         fd.write(added_line)
                         print(added_line)
                 print('-------------------------------')

@@ -3,7 +3,7 @@
 import great_circle_calculator.great_circle_calculator as gcc
 import airportsdata
 
-open("automatic_flights_from_ams.scn", "w").close()
+open("automatic_flights_from_ams_v2.scn", "w").close()
 
 airports = airportsdata.load()
 
@@ -35,7 +35,7 @@ airplanes = {}
 with open('automatic_flights_to_ams_and_auto_regional.scn') as f:
     f = f.readlines()
     for idx, line in enumerate(f):
-        with open("automatic_flights_from_ams.scn", "a") as fd1:
+        with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
             fd1.write(line)
         if 'ORIG EHAM' in line:
             plane = line.strip()[12:].split()[0]
@@ -62,7 +62,37 @@ with open('automatic_flights_to_ams_and_auto_regional.scn') as f:
                         closest = gcc.distance_between_points(all_departures_dict[dep_point][0], location_dest, unit='meters')/1000 + all_departures_dict[dep_point][1]
                         closest_dep_point = dep_point
             airplanes[plane] = closest_dep_point
-            with open("automatic_flights_from_ams.scn", "a") as fd1:
+            with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
                 pcall_line = line[:12] + plane +' PCALL ' + str(all_departures_dict[closest_dep_point][3]) + '\n'
                 print('pcall',pcall_line)
                 fd1.write(pcall_line)
+        elif 'ORIG EHEH' in line:
+            if "DEST EHAM" not in f[idx-1]:
+                with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
+                    plane = line.strip()[12:].split()[0]
+                    pcall_line = line[:12] + plane +' PCALL ' + 'EHEHDEP' + '\n'
+                    print('pcall',pcall_line)
+                    fd1.write(pcall_line)
+        elif 'ORIG EHVK' in line:
+            if "DEST EHAM" not in f[idx-1]:
+                with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
+                    plane = line.strip()[12:].split()[0]
+                    pcall_line = line[:12] + plane +' PCALL ' + 'EHVKDEP' + '\n'
+                    print('pcall',pcall_line)
+                    fd1.write(pcall_line)
+        elif 'ORIG EHRD' in line:
+            if "DEST EHAM" not in f[idx-1]:
+                with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
+                    plane = line.strip()[12:].split()[0]
+                    pcall_line = line[:12] + plane +' PCALL ' + 'EHRDDEP' + '\n'
+                    print('pcall',pcall_line)
+                    fd1.write(pcall_line)
+            
+     elif 'ORIG EBZW' in line:
+         if "DEST EHAM" not in f[idx-1]:
+             with open("automatic_flights_from_ams_v2.scn", "a") as fd1:
+                 plane = line.strip()[12:].split()[0]
+                 pcall_line = line[:12] + plane +' PCALL ' + 'REGIONALDEP' + '\n'
+                 print('pcall',pcall_line)
+                 fd1.write(pcall_line)
+            
