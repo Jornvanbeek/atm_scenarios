@@ -1,4 +1,5 @@
 
-00:00:00.00>%0 addwpt nor5
-00:00:00.00>%0 addwpt wndml fl180
+00:00:00.00>%0 addwpt nor5 FL200 280
+00:00:00.00>%0 addwpt wndml 
 00:00:00.00>%0 pcall norsea
+00:00:00.00>%0 AT NOR5 DO %0 VNAV ON

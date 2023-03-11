@@ -1,2 +1,3 @@
-00:00:00.00>%0 addwpt WPT_TR2
+00:00:00.00>%0 addwpt WPT_TR2 FL260 280
 00:00:00.00>%0 pcall ysel.scn
+00:00:00.00>%0 AT WPT_TR2 DO %0 VNAV ON

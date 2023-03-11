@@ -1,5 +1,6 @@
 
-00:00:00.00>%0 addwpt nor1 fl220
+00:00:00.00>%0 addwpt nor1 fl260 280
 00:00:00.00>%0 addwpt deltaw
 00:00:00.00>%0 addwpt tnkr
 00:00:00.00>%0 pcall norsea
+00:00:00.00>%0 AT NOR1 DO %0 VNAV ON

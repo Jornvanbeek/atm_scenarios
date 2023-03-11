@@ -1,3 +1,4 @@
-00:00:00.00>%0 addwpt WPT_BR2
+00:00:00.00>%0 addwpt WPT_BR2 FL220 280
 00:00:00.00>%0 addwpt WPT_BR12
 00:00:00.00>%0 pcall lopik.scn
+00:00:00.00>%0 AT WPT_BR2 DO %0 VNAV ON

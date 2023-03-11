@@ -1,6 +1,6 @@
 
 00:00:00.00>%0 dest eham
-00:00:00.00>%0 addwpt yselmr fl140 280
+00:00:00.00>%0 addwpt yselmr fl150 250
 #00:00:00.00>%0 addwpt ams fl080 230
 00:00:00.00>%0 addwpt basno
 00:00:00.00>%0 addwpt coastspd
@@ -21,8 +21,11 @@
 
 00:00:00.00>%0 alt fl340
 00:00:00.00>%0 spd m.78
+00:00:00.00>%0 VS 3000
 
-00:00:00.00>%0 vnav on
+
+00:00:00.00>%0 ATALT FL340 %0 vnav on
+
 00:00:00.00>%0 lnav on
 00:00:00.00>%0 colour 0,255,0
 00:00:02.00>%0 colour 0,255,0

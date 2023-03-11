@@ -1,5 +1,8 @@
 
-00:00:00.00>%0 addwpt nor2 fl220
+00:00:00.00>%0 addwpt nor2 FL260,280
+#00:00:00.00>%0 AT nor2 ALT fl220
+#00:00:00.00>%0 AT nor2 SPD 280
 00:00:00.00>%0 addwpt deltaw
 00:00:00.00>%0 addwpt tnkr
 00:00:00.00>%0 pcall norsea
+00:00:00.00>%0 AT NOR2 DO %0 VNAV ON
