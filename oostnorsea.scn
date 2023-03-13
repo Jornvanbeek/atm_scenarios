@@ -1,0 +1,27 @@
+# 00:00:00.00>pcall proceduredraw
+00:00:00.00>%0 delrte
+00:00:00.00>%0 dest eham
+
+00:00:00.00>%0 addwpt ktwk fl085 230
+00:00:00.00>%0 addwpt ktwk fl085 230
+00:00:00.00>%0 addwpt coastspd
+00:00:00.00>%0 addwpt oostapp fl020 170
+00:00:00.00>%0 addwpt eh062
+
+
+00:00:00.00>%0 at coastspd spd 200
+00:00:00.00>%0 at eh062 spd 150
+
+00:00:00.00>%0 at ktwk do colour %0 100,100,230
+00:00:00.00>%0 at oostapp do colour %0 100,100,100
+00:00:00.00>%0 atalt fl099 zoner 1.5 %0
+00:00:00.00>%0 atalt fl100 zoner 2.5 %0
+
+
+
+
+00:00:00.00>%0 lnav on
+00:00:00.00>%0 vnav on
+
+
+
