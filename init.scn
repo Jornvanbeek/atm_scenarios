@@ -5,6 +5,7 @@
 00:00:00.00>zoner 2.5
 00:00:00.00>zonedh 500
 #00:00:00.00>pcall eham/deffix
+00:00:00.00>TAXI OFF
 
 
 # IAF
