@@ -1,7 +1,7 @@
 #clearup program
 
 
-newname = 'finalscenario_shortened.scn'
+newname = 'finalscenario_shortened_v2.scn'
 
 open(newname, "w").close()
 
